@@ -52,13 +52,9 @@
                     android:id="@+id/btn_previous"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/previous"
-                    android:textSize="18sp"
-                    android:textAllCaps="false"
                     android:drawableLeft="@drawable/left"
-                    android:drawablePadding="20dp"
+                    android:layout_gravity="center"
                     android:padding="10dp"
-                    android:minWidth="150dp"
                     android:background="@drawable/btn_shape"
                     app:backgroundTint="@color/light_blue"/>
                 <View
@@ -69,13 +65,9 @@
                     android:id="@+id/btn_next"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/next"
-                    android:textSize="18sp"
-                    android:textAllCaps="false"
-                    android:drawableRight="@drawable/right"
+                    android:drawableEnd="@drawable/right"
                     android:drawablePadding="20dp"
                     android:padding="10dp"
-                    android:minWidth="150dp"
                     android:background="@drawable/btn_shape"
                     app:backgroundTint="@color/light_blue"/>
             </LinearLayout>
